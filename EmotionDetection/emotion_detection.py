@@ -19,7 +19,7 @@ def emotion_detector(text_to_analyse):  # Define a function named sentiment_anal
         'disgust': emotion_scores['disgust'],
         'fear': emotion_scores['fear'],
         'joy': emotion_scores['joy'],
-        'sadnesss': emotion_scores['sadness'],
+        'sadness': emotion_scores['sadness'],
     }
 
     dominant_emotion = max(emotions, key=emotions.get)
